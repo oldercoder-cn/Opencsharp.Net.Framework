@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<autofac defaultAssembly="Autofac.Example.Calculator">
+  <components name="0">
+    <type>Autofac.Example.Calculator.Addition.Add, Autofac.Example.Calculator.Addition</type>
+    <services name="0" type="Autofac.Example.Calculator.Api.IOperation" />
+    <injectProperties>true</injectProperties>
+  </components>
+  <components name="1">
+    <type>Autofac.Example.Calculator.Division.Divide, Autofac.Example.Calculator.Division</type>
+    <services name="0" type="Autofac.Example.Calculator.Api.IOperation" />
+    <injectProperties>true</injectProperties>
+    <parameters>
+      <places>4</places>
+    </parameters>
+  </components>
+</autofac>

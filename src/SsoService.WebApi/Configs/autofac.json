@@ -1,0 +1,13 @@
+﻿{
+  "defaultAssembly": "Data.Orm.Dapper",
+  "components": [
+    {
+      "type": "Data.Orm.Dapper.SqlServerDatabase, Data.Orm.Dapper",
+      "services": [
+        {
+          "type": "Data.DbFactory.IDatabase,Data.DbFactory"
+        }
+      ]
+    }
+  ]
+}

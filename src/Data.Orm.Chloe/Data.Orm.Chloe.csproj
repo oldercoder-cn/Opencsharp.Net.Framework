@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chloe" Version="2.27.0" />
+    <PackageReference Include="Chloe.Extension" Version="1.13.0" />
+    <PackageReference Include="Chloe.SqlServer" Version="2.27.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Data.DbFactory\Data.DbFactory.csproj" />
+  </ItemGroup>
+
+</Project>
